@@ -34,24 +34,35 @@ video {
 
 .isla-container {
   width: 80%;
-  margin: 0 auto; /* Centra horizontalmente la isla */
-  text-align: center; /* Centra el contenido de la isla */
-  background-color: lightblue;
+  margin: 0 auto;
+  text-align: center; 
+  background-color: rgb(0, 8, 255);
 }
 .info-container{
-  width: 100%; /* Tamaño del listado es 50% del tamaño de la isla */
-  overflow-y: auto; /* Agrega una barra de desplazamiento vertical */
-  max-height: 100vh; /* Altura máxima igual a la altura de la página */
-  background-color: rgb(195, 255, 255);
+  width: 100%;
+  overflow-y: auto; 
+  max-height: 100vh; 
+  background-color:white;
   flex: "1";
+  text-align: start;
+  padding: 10%;
 }
 .list-container {
-  width: 50%; /* Tamaño del listado es 50% del tamaño de la isla */
-  overflow-y: auto; /* Agrega una barra de desplazamiento vertical */
-  max-height: 100vh; /* Altura máxima igual a la altura de la página */
+  width: 50%; 
+  overflow-y: auto; 
+  max-height: 100vh;
   flex: "1";
 }
-
+.sollicitar{
+  background-color: rgb(0, 72, 255);
+  color: white; 
+  border-radius: 20px;
+}
+.guardar{
+  color: rgb(0, 72, 255);
+  background-color: white;
+  border-radius: 20px;
+}
 .listado-container {
   display: flex;
   flex-direction: column;
@@ -62,7 +73,7 @@ video {
   margin-bottom: 0px;
 }
 .last-clicked {
-  background-color: rgba(0, 234, 255, 0.785);
+  background-color: rgba(0, 234, 255, 0.562);
 }
 
 .listado-button {

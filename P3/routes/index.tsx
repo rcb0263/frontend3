@@ -20,7 +20,7 @@ const Home = (props:PageProps<LinkArr>) => {
   return (
       
     <div>
-        <List data={Lista.data} /> {/* Usar el componente List en lugar de LinkI */}
+        <List data={Lista.data} />
     </div>
   );
 };
